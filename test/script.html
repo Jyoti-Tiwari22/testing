@@ -1,0 +1,49 @@
+{
+  "@context" : "http://schema.org/",
+  "@type" : "JobPosting",
+  "title" : "[#job_title]",
+  "url" : "[#url]",
+  "description" : "[#job_description]",
+  "disambiguatingDescription":"[#job_description]",
+  "validThrough": "[#valid_through]",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "[#site]",
+    "value": "[#job_id]"
+  },
+  "image": "",
+  "incentiveCompensation": "",
+  "jobBenefits": "",
+  "datePosted" : "[#time]",
+  "employmentType" : "PART_TIME",
+  "hiringOrganization" : {
+    "@type" : "Organization",
+    "name" : "[#company_name]",
+    "logo": "[#organization_logo]"
+  },
+  "jobLocation" : {
+    "@type" : "Place",
+    "address" : {
+      "@type" : "PostalAddress",
+      "addressLocality" : "[#city_name]",
+      "addressRegion" : "[#state]",
+      "postalCode" : "[#zipcode]",
+      "addressCountry": "US",
+      
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "[#latitude]",
+      "longitude": "[#longitude]"
+    }
+  },
+  "mainEntityOfPage": "[#url]",
+  "occupationalCategory": "[#occupational_category]",
+  "educationRequirements": "[#education_requirements]",
+  "experienceRequirements": "[#experience_requirements]",
+  "industry": "Delivery",
+  "qualifications": "[#qualifications]",
+  "responsibilities":"[#responsibilities]",
+  "skills":"",
+  "workHours":""
+}
